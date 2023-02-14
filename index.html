@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Social Book By Ameen Raza</title>
+    <link rel="shortcut icon" href="./images/download.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/757f03ea7c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-left">
+           <a href="index.html"> <img src="./images/logo.png" class="logo"></a>
+            
+               <div  class="notificaation-click redline" onclick="notificationsMenuToggle()">
+                    <img src="./images/notification.png">  
+                </div>
+
+                
+                    <div  class="inbox-click redline" onclick="inboxMenuToggle()">
+                        <img src="./images/inbox.png">  
+                    </div>
+                    
+                    <ul>
+                <li>
+                    <a href="watch.html"><img src="./images/video.png" alt=""></a>
+                    
+                </li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="./images/search.png">
+                <input type="text" placeholder="search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="./images/ameen.jpg">
+            </div>
+
+
+        </div>
+         <!----------Settings Menu--------->
+        <div class="settings-menu">
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="./images/ameen.jpg">
+                    <div>
+                        <p>Ameen Raza</p>
+                        <a href="#">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="./images/feedback.png">
+                    <div>
+                        <p>Give feedback</p>
+                        <a href="#">Help Us To Improve The New Design</a>
+                    </div>
+                </div>
+                <hr>
+                 <div class="setting-links">
+                    <img src="./images/setting.png" class="settings-icon">
+                    <a href="#">Setting & Privacy <img src="./images/arrow.png" width="10px"></a>
+                 </div>
+                 <div class="setting-links">
+                    <img src="./images/help.png" class="settings-icon">
+                    <a href="#">Help & Support <img src="./images/arrow.png" width="10px"></a>
+                 </div>
+
+                 <div class="setting-links">
+                    <img src="./images/display.png" class="settings-icon">
+                    <a href="#">Display & Acciblity <img src="./images/arrow.png" width="10px"></a>
+                 </div>
+                 <div class="setting-links">
+                    <img src="./images/logout.png" class="settings-icon">
+                    <a href="#">Log Out <img src="./images/arrow.png" width="10px"></a>
+                 </div>
+
+
+
+
+            </div>
+          
+        </div>
+    </nav>
+    <div class="notification">
+        <h3>
+            Notifications
+        </h3>
+        <img src="./images/fahad.jpg">
+        <div class="name right">
+            <p>Fahad Raza</p>
+        </div>
+        <div class="react right">
+            <span>React A Video To You Share</span>
+        </div>
+        <div class="min right">
+            <p class="minutes">36 Minutes Ago</p>
+        </div>
+        <div class="noti2">
+            <img src="./images/photo3.png" alt="">
+            <div class="name right">
+                <p>Syed Muntaha </p>
+            </div>
+            <div class="react right">
+                <span>React A Video To You Share</span>
+            </div>
+            <div class="min right">
+                <p class="minutes">42 Minutes Ago</p>
+            </div>
+        </div>
+        
+        <div class="noti3">
+            <img src="./images/photo4.png" alt="">
+            <div class="name-2 right">
+                <p>Muzzamil khan </p>
+            </div>
+            <div class="react right">
+                <span>React A Post To You Share</span>
+            </div>
+            <div class="min-3 right">
+                <span class="minutes">42 Minutes Ago</span>
+            </div>
+        </div>
+   
+    <div class="noti4">
+        <img src="./images/photo5.png" alt="">
+        <div class="name right">
+            <p> Syed Muavia Ali </p>
+        </div>
+        <div class="react right">
+            <span>React A on your Cover Pic</span>
+        </div>
+        <div class="min">
+            <p class="minutes">18 Minutes Ago</p>
+        </div>
+    </div>
+    <div class="noti4">
+        <img src="./images/photo6.png" alt="">
+        <div class="name right">
+            <p> Mustak Ahmed </p>
+        </div>
+        <div class="react right">
+            <span>React A Profile To You Share</span>
+        </div>
+        <div class="min right">
+            <p class="minutes">17 Minutes Ago</p>
+        </div>
+    </div>
+    <div class="noti4">
+        <img src="./images/profile.png" alt="">
+        <div class="name right">
+            <p> Waseem Haider </p>
+        </div>
+        <div class="react right">
+            <span>React A Post To You Share</span>
+        </div>
+        <div class="min right">
+            <p class="minutes">12 Minutes Ago</p>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+</div>
+
+    <div class="inbox">
+        <h2>Chats</h2>
+    
+    <div class="serach-chat">
+        <input type="text" placeholder="Search Massanger">
+    </div>
+    <div class="chat-image">
+        <img src="./images/profile.png">
+    </div>
+    <div class="chat-name">
+        <p>
+            Waseem Haider
+        </p>
+    </div>
+    <div class="chat-massage">
+        <span>You Are Now Connected On Massenger</span>
+    </div>
+
+    <div class="chat-image1">
+        <img src="./images/fahad.jpg">
+    </div>
+    <div>
+        <p class="chat-name-1">
+           Fahad Raza
+        </p>
+    </div>
+    <div  class="chat-massage-1">
+        <span>Where Are You Brother I am Wating For You</span>
+    </div>
+
+    <div class="chat-image2">
+        <img src="./images/member-1.png">
+    </div>
+    <div>
+        <p class="chat-name-2">
+           Alina Khan
+        </p>
+    </div>
+    <div  class="chat-massage-2">
+        <span>Hey How Are You </span>
+    </div>
+
+
+    <div class="chat-image3">
+        <img src="./images/member-3.png">
+    </div>
+    <div>
+        <p class="chat-name-3">
+           Syeda Kanwal
+        </p>
+    </div>
+    <div  class="chat-massage-3">
+        <span>I really Like Your Coding </span>
+    </div>
+
+    <div class="chat-image4">
+        <img src="./images/member-5.png">
+    </div>
+    <div>
+        <p class="chat-name-4">
+           Syed Muavia Ali
+        </p>
+    </div>
+    <div  class="chat-massage-4">
+        <span>Ok Brother take Care See You Later </span>
+    </div>
+
+</div>
+    <div class="container">
+        <!----------left-sidebar--------->
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="friend.html"><img src="./images/friends.png">Friends</a>
+                <a href="group.html"><img src="./images/group.png">Groups</a>
+                <a href="market.html"><img src="./images/marketplace.png">Marketplace</a>
+                <a href="watch.html"><img src="./images/watch.png">Watch</a>
+                <a href="#">See More</a>
+            </div>
+            <div class="shortcut-link">
+                <p>Your Shortcuts</p>
+                <a href="#"><img src="./images/shortcut-1.png"><p>Web Developer</a></p>
+                <a href="#"><img src="./images/shortcut-2.png"><p>Web Design Course</a></p>
+                <a href="#"><img src="./images/shortcut-3.png"><p>Full Stack Development</a></p>
+                <a href="#"><img src="./images/shortcut-4.png"><p>Website Experts</a></p>
+            </div>
+        </div>
+        <!----------main-contant--------->
+        <div class="main-contant">
+
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="./images/upload.png">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="./images/card.jpg">
+                    <p>Ameen Raza</p>
+                </div>
+                <div class="story story3">
+                    <img src="./images/member-2.png">
+                    <p>Shahzaib Khan</p>
+                </div>
+                <div class="story story4">
+                    <img src="./images/member-3.png">
+                    <p>adam arsal</p>
+                </div>
+                <div class="story story5">
+                    <img src="./images/member-4.png">
+                    <p>vjoy Dutta</p>
+                </div>
+            </div>
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="./images/ameen.jpg">
+                    <div>
+                        <p>Ameen Raza</p>
+                        <small>Public <i class="fa-sharp fa-solid fa-caret-down"></i></small>
+                    </div>
+                </div>
+
+
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's On Your Mind Ameen Raza">
+                </textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="./images/live-video.png">Live Video</a>
+                        <a href="#"><img src="./images/photo.png">Photo Vidoe</a>
+                        <a href="#"><img src="./images/feeling.png">Feeling Activity</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./images/ameen.jpg">
+                        <div>
+                            <p>Ameen Raza</p>
+                            <span>June 24 2023, 13:40 PM</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-sharp fa-solid fa-ellipsis-v"> </i> </a>
+                </div>
+                <p class="post-text">My Name Is <span>Ameen Raza</span> I Am Frontend Developer And I Also Learn About React And Other Languages Thanks
+                    <a href="#">#Ameen Raza</a>
+                    For Wisit My Site </p>
+                    <img src="./images/crosal 2.jpg" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div>
+                                <img src="./images/like-blue.png">
+                               <p>12000 
+                               <br> Likes</p>
+                            </div>
+                            <div>
+                                <img src="./images/comments.png">
+                                <p>12000 
+                                    <br> Likes</p>
+                            </div>
+                            <div>
+                                <img src="./images/share.png">
+                                <p>12000 
+                                    <br> Likes</p>
+                            </div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="./images/crosal 2.jpg"><i class="fa-sharp fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+            </div>
+
+
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./images/feed-image-2.png">
+                        <div>
+                            <p>Advanture Group</p>
+                            <span>June 24 2023, 13:40 PM</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-sharp fa-solid fa-ellipsis-v"> </i> </a>
+                </div>
+                <p class="post-text">We Are Friends <span>And We Lover Together</span>
+                    <a href="#">#youtubers</a> </p>
+                    <img src="./images/feed-image-2.png" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div>
+                                <img src="./images/like-blue.png">
+                                <p>12,000 
+                                    <br> Likes</p>
+                            </div>
+                            <div>
+                                <img src="./images/comments.png">
+                                <p>2000 
+                                    <br> Comments</p>
+                            </div>
+                            <div>
+                                <img src="./images/share.png">
+                                <p>12 
+                                    <br> Shares</p>
+                            </div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="./images/feed-image-2.png"><i class="fa-sharp fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+            </div>
+
+
+
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./images/feed-image-3.png">
+                        <div>
+                            <p>Stalber king</p>
+                            <span>July 18 2023, 10:40 PM</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-sharp fa-solid fa-ellipsis-v"> </i> </a>
+                </div>
+                <p class="post-text">My Name Is <span>Aganda hero</span> I Am hero of oganda Thanks for comming
+                    <a href="#">#stalber</a>
+                    For Wisit My Site </p>
+                    <img src="./images/feed-image-3.png" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div>
+                                <img src="./images/like-blue.png">
+                                <p>300 
+                                    <br> Likes</p>
+                            </div>
+                            <div>
+                                <img src="./images/comments.png">
+                                <p>2
+                                    <br> Comments</p>
+                            </div>
+                            <div>
+                                <img src="./images/share.png">
+                                <p>1 
+                                    <br> Shares</p>
+                            </div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="./images/feed-image-3.png"><i class="fa-sharp fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+            </div>
+
+
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./images/feed-image-4.png">
+                        <div>
+                            <p>Jasmine Mina</p>
+                            <span>may 24 2023, 12:00 PM</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-sharp fa-solid fa-ellipsis-v"> </i> </a>
+                </div>
+                <p class="post-text">My Name Is <span>Jasmine Mina</span> I Am Frontend Developer And I Also Learn About React And Other Languages Thanks
+                    <a href="#">#jasmine Mina</a>
+                    For Wisit My Site </p>
+                    <img src="./images/feed-image-4.png" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div>
+                                <img src="./images/like-blue.png">
+                                <p>123,00
+                                    <br> Likes</p>
+                            </div>
+                            <div>
+                                <img src="./images/comments.png">
+                                <p>5,000
+                                    <br> Comments</p>
+                            </div>
+                            <div>
+                                <img src="./images/share.png">
+                                <p>6,000
+                                    <br> Shares</p>
+                            </div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="./images/feed-image-4.png"><i class="fa-sharp fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+            </div>
+
+
+
+
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./images/feed-image-5.png">
+                        <div>
+                            <p>Engeners</p>
+                            <span>august 24 2023, 13:40 PM</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-sharp fa-solid fa-ellipsis-v"> </i> </a>
+                </div>
+                <p class="post-text">we are <span>Experts</span> thanks
+                    <a href="#">#Ameen Raza</a>
+                    For Wisit My Site </p>
+                    <img src="./images/feed-image-5.png" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div>
+                                <img src="./images/like-blue.png">
+                                <p>3,000 
+                                    <br> Likes</p>
+                            </div>
+                            <div>
+                                <img src="./images/comments.png">
+                                <p>2,000
+                                    <br> Comments</p>
+                            </div>
+                            <div>
+                                <img src="./images/share.png">
+                                <p>1,000 
+                                    <br> Shares</p>
+                            </div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="./images/feed-image-5.png"><i class="fa-sharp fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+            </div>
+            <button type="button" class="load-more-btn">Load More</button>
+        </div>
+       
+
+        <!----------right-sidebar--------->
+        <div class="right-sidebar">
+
+            <div class="sidebar-title">
+                <h4> Events</h4>
+                <a href="#">See All</a>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+
+                    <h4>Social Media</h4>
+
+                    <p><i class="fa-sharp fa-solid fa-location-dot"></i>Wiliamson tech Park</p>
+                    <a href="#">More Info</a>
+
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>22</h3>
+                    <span>June</span>
+                </div>
+                <div class="right-event">
+
+                    <h4>Mobile marketing</h4>
+
+                    <p><i class="fa-sharp fa-solid fa-location-dot"></i>Wiliamson tech Park</p>
+                    <a href="#">More Info</a>
+
+                </div>
+            </div>
+
+            <div class="sidebar-title">
+                <h4>Addvertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="./images/advertisement.png" class="sidebar-ad">
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="./images/umair.jpg">
+                </div>
+                <p>Umair Raza</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="./images/member-1.jpg">
+                </div>
+                <p>Mohammad Saif </p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="./images/fahad.jpg">
+                </div>
+                <p>Fahad Raza</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="./images/meraj.jpg">
+                </div>
+                <p>Meraj Sahir</p>
+            </div>
+
+        </div>
+
+    </div>
+
+<div class="footer">
+    <p>Copyright 2023 - Ameen Raza Frontend Develper</p>
+</div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
